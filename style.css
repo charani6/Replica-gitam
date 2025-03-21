@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #0a0223;
+    color: white;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #090017;
+    position: fixed;
+    width:100vw;
+}
+
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #ff00ff, #0099ff);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 100px 20px;
+    background-image:url("background.jpg");
+
+    width:100vx;
+    height:100vh;
+}
+.imageclass
+{
+    background-image:url("https://ibb.co/7dBFZHQC");
+    background-size:cover;
+    width:100vx;
+}
+.hero h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.characters img {
+    width: 150px;
+    margin: 10px;
+}
+.match-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin: 20px;
+}
+.tournament {
+    padding: 80px 20px;
+    background: #12122b;
+    scroll-behavior: smooth;
+    background-image: url("tournament.png");
+}
+.match-time {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 30px;
+}
+.news-section h2 {
+    font-size: 30px;
+    color: #ffffff;
+    
+}
+.news-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    background-image: url("tournament.png");
+}
+
+.news-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+}
+footer {
+    background: #12122b;
+    padding: 40px 20px;
+    text-align: left;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+.footer-section {
+    flex: 1;
+    margin: 20px;
+}
+.footer-section h3 {
+    color: #9d4edd;
+    margin-bottom: 15px;
+}
+.footer-section p, .footer-section ul, .footer-section a {
+    color: white;
+    text-decoration: none;
+}
+.footer-section ul {
+    list-style: none;
+}
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+.newsletter input {
+    padding: 10px;
+    width: 80%;
+    margin-top: 10px;
+}
+.newsletter button {
+    background: #9d4edd;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+footer {
+    background-color: #08001a;
+    padding: 20px;
+    text-align: center;
+}
+/* Contact Section */
+.contact {
+    background-color: #220544;
+}
+
+.contact p {
+    font-size: 18px;
+}
+.image1
+{
+    height:100px;
+    width:100px;
+}
+.para1
+{
+    font-size:14px;
+    font-family:"sans-serif";
+
+}
+.head1
+{
+    margin-top:30px;
+}
+.head2
+{
+    margin-top:120px;
+}
+.spaceemail
+{
+    padding-top:30px;
+}
+.element{
+    position:relative;
+}
+.element:hover::after{
+
+
+content: "";
+position: absolute;
+width: 30px;
+height: 30px;
+background-color: #ff00ff; /* Customize the ball color */
+border-radius: 50%;
+pointer-events: none;
+top: calc(50% - 25px);
+left: calc(50% - 25px);
+transition: all ease-in-out
+}
